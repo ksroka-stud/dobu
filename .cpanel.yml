@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/ksroka-stud /public_html/dobu/
+    - export DEPLOYPATH=/home/konrads /public_html/dobu/
     - /bin/cp -R * $DEPLOYPATH
