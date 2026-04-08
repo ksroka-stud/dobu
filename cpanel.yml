@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/konrads/public_html/dobu/
+    - /bin/cp -R * $DEPLOYPATH
