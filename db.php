@@ -1,8 +1,8 @@
 <?php
 $host = 'localhost';
-$db   = 'dobu';
-$user = 'root';
-$pass = '';
+$db   = 'konrads_dobu_db';
+$user = 'konrads_dobu_user';
+$pass = 'D0Bu_DB!';
 $charset = 'utf8mb4';
 
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
