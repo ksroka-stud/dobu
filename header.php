@@ -24,6 +24,7 @@ if (session_status() === PHP_SESSION_NONE) {
 </head>
 <body>
 <nav>
+    <a href="index.html">Home</a>
     <a href="register.php">Register</a>
     <a href="login.php">Login</a>
     <?php if (isset($_SESSION['user_id'])): ?>
