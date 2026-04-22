@@ -11,7 +11,7 @@ if (session_status() === PHP_SESSION_NONE) {
     <title>DoBu Martial Arts - Membership</title>
     <style>
         body { font-family: Arial, sans-serif; max-width: 900px; margin: 40px auto; padding: 0 20px; line-height: 1.5; }
-        nav a { margin-right: 12px; }
+        nav a{color: rgb(255, 255, 255);margin: 0 10px;text-decoration: none;font-weight: bold;}
         form { margin: 20px 0; padding: 20px; border: 1px solid #ccc; border-radius: 8px; }
         label { display: block; margin-top: 12px; font-weight: bold; }
         input, select, button { margin-top: 6px; padding: 10px; width: 100%; max-width: 420px; }
