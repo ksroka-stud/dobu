@@ -19,6 +19,7 @@ if (session_status() === PHP_SESSION_NONE) {
         .success { background: #e5f7e8; color: #1d6b2a; }
         table { border-collapse: collapse; width: 100%; margin-top: 16px; }
         th, td { border: 1px solid #ccc; padding: 10px; text-align: left; }
+    </style>
 </head>
 <body>
 <nav>
