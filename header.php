@@ -5,22 +5,11 @@ if (session_status() === PHP_SESSION_NONE) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
+<link rel="stylesheet" href="css/style.css">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DoBu Membership</title>
-    <style>
-        body { font-family: Arial, sans-serif; max-width: 900px; margin: 40px auto; padding: 0 20px; line-height: 1.5; }
-        nav a { margin-right: 12px; }
-        form { margin: 20px 0; padding: 20px; border: 1px solid #ccc; border-radius: 8px; }
-        label { display: block; margin-top: 12px; font-weight: bold; }
-        input, select, button { margin-top: 6px; padding: 10px; width: 100%; max-width: 420px; }
-        .message { padding: 10px 14px; border-radius: 6px; margin: 12px 0; }
-        .error { background: #ffe3e3; color: #8a1f1f; }
-        .success { background: #e5f7e8; color: #1d6b2a; }
-        table { border-collapse: collapse; width: 100%; margin-top: 16px; }
-        th, td { border: 1px solid #ccc; padding: 10px; text-align: left; }
-    </style>
+    <title>DoBu Martial Arts - Account</title>
 </head>
 <body>
 <nav>
