@@ -1,8 +1,8 @@
-body{margin:0;font-family:system-ui,Segoe UI,Arial,sans-serif}
+body { font-family: Arial, sans-serif; margin: 0; padding: 15px; line-height: 1.5; }
 header{background-color: #000000;color: rgb(255, 255, 255);padding: 15px;display: flex;justify-content: space-between;align-items: center;}
 header h1{margin:0}
 h1{color:rgb(255, 255, 255)}
 nav a{color: rgb(255, 255, 255);margin: 0 10px;text-decoration: none;font-weight: bold;}
 .container{text-align: center;}
-footer{position: fixed; left: 0; bottom: 0 ; width: 100%; background-color: #000000;color: rgb(255, 255, 255);padding: 15px;display: flex;justify-content: center;text-align: center;}
+footer{left: 0; bottom: 0 ; width: 100%; background-color: #000000;color: rgb(255, 255, 255);padding: 15px;display: flex;justify-content: center;text-align: center;}
 .hero{background-size: cover;background-position: center;text-align: center;padding: 50px 10px;align-items: center;}
