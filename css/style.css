@@ -12,3 +12,5 @@ footer{position: static; bottom: 0; background-color: #111; color: white; text-a
 .timetable th{background-color: #111;color: white;padding: 14px;text-align: center;font-size: 16px;}
 .timetable td{padding: 12px;text-align: center;border: 1px solid #ddd;font-size: 15px;}
 .price-card{background-color: white;padding: 10px 10px;border-radius: 10px;box-shadow: 0 3px 10px rgba(0,0,0,0.12);text-align: center;}
+.instructor-card{align-items: center;}
+.instructor-card img{width: 25%;height: 200px;object-fit: cover;border-radius: 8px;margin-bottom: 15px;}
