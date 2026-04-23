@@ -23,10 +23,76 @@
     </nav>
     </header>
     
-    <section class="container">
-        <h2>Learn more about us</h2>
-        <p>DoBu Martial Arts is a martial arts gym. The gym offers classes in a number of different martial arts, as well as fitness training and self-defence courses</p>
-    </section>   
+    <main class="container">
+
+    <section class="about-section">
+        <h2>About DoBu Martial Arts</h2>
+        <p>
+            DoBu Martial Arts is a modern training facility dedicated to helping members improve
+            fitness, confidence and martial arts skills. We welcome beginners, experienced athletes
+            and families looking for professional coaching in a safe and supportive environment.
+        </p>
+
+        <p>
+            Our gym includes a large matted martial arts area, fully equipped fitness gym,
+            sauna, steam room and changing facilities.
+        </p>
+    </section>
+
+    <section class="about-features">
+
+        <div class="about-card">
+            <h3>Qualified Coaches</h3>
+            <p>Experienced instructors with recognised qualifications across multiple disciplines.</p>
+        </div>
+
+        <div class="about-card">
+            <h3>Modern Facilities</h3>
+            <p>High quality training areas, fitness equipment and recovery facilities.</p>
+        </div>
+
+        <div class="about-card">
+            <h3>All Skill Levels</h3>
+            <p>From complete beginners to advanced martial artists, everyone is welcome.</p>
+        </div>
+
+    </section>
+
+    <section class="faq-section">
+
+        <h2>Frequently Asked Questions</h2>
+
+        <div class="faq-item">
+            <button class="faq-question">Do I need previous experience?</button>
+            <div class="faq-answer">
+                <p>No. We welcome complete beginners and provide structured coaching.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">What should I bring to my first class?</button>
+            <div class="faq-answer">
+                <p>Comfortable gym clothing, water and a positive attitude.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">Do you offer kids classes?</button>
+            <div class="faq-answer">
+                <p>Yes. We offer children's judo, karate and jiu-jitsu sessions.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">Can I use the gym facilities?</button>
+            <div class="faq-answer">
+                <p>Yes. Fitness room access and personal training options are available.</p>
+            </div>
+        </div>
+
+    </section>
+
+    </main>
 
     <footer>
         <p>© 2026 DoBu Martial Arts | All Rights Reserved</p>
@@ -34,3 +100,21 @@
 
 </body>
 </html>
+
+<script>
+const faqQuestions = document.querySelectorAll(".faq-question");
+
+faqQuestions.forEach(button => {
+    button.addEventListener("click", () => {
+        const answer = button.nextElementSibling;
+
+        answer.classList.toggle("active");
+
+        if(answer.style.maxHeight){
+            answer.style.maxHeight = null;
+        } else {
+            answer.style.maxHeight = answer.scrollHeight + "px";
+        }
+    });
+});
+</script>
