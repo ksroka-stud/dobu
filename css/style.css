@@ -11,3 +11,4 @@ footer{position: static; bottom: 0; background-color: #111; color: white; text-a
 .timetable{width: 100%;border-collapse: collapse;-color: white;box-shadow: 0 2px 8px rgba(0,0,0,0.15);border-radius: 8px;overflow: hidden;min-width: 900px;}
 .timetable th{background-color: #111;color: white;padding: 14px;text-align: center;font-size: 16px;}
 .timetable td{padding: 12px;text-align: center;border: 1px solid #ddd;font-size: 15px;}
+.price-card{background-color: white;padding: 10px 10px;border-radius: 10px;box-shadow: 0 3px 10px rgba(0,0,0,0.12);text-align: center;}
