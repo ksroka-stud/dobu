@@ -10,6 +10,23 @@
     <style>
         .herob{background-image: url("../assets/img/manwearingkarateoutfit.png");background-size: cover;background-position: center;background-repeat: no-repeat;color: white;text-align: center;padding: 100px 20px;height: 500px;display: flex;flex-direction: column;justify-content: center}
     </style>
+    <script>
+    const faqQuestions = document.querySelectorAll(".faq-question");
+
+    faqQuestions.forEach(button => {
+        button.addEventListener("click", () => {
+            const answer = button.nextElementSibling;
+
+            answer.classList.toggle("active");
+
+            if(answer.style.maxHeight){
+                answer.style.maxHeight = null;
+            } else {
+                answer.style.maxHeight = answer.scrollHeight + "px";
+            }
+        });
+    });
+    </script>
 </head>
 <body>
     <header>
@@ -108,20 +125,3 @@
 </body>
 </html>
 
-<script>
-const faqQuestions = document.querySelectorAll(".faq-question");
-
-faqQuestions.forEach(button => {
-    button.addEventListener("click", () => {
-        const answer = button.nextElementSibling;
-
-        answer.classList.toggle("active");
-
-        if(answer.style.maxHeight){
-            answer.style.maxHeight = null;
-        } else {
-            answer.style.maxHeight = answer.scrollHeight + "px";
-        }
-    });
-});
-</script>
