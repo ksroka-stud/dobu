@@ -85,7 +85,7 @@ include 'header.php';
         <?php endforeach; ?>
     </select>
 
-    <button type="submit">Create account</button>
+    <button type="submit" class="btn1">Create account</button>
 </form>
 
 </main>
