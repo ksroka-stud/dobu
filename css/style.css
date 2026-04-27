@@ -5,7 +5,7 @@ header h1{margin:0}
 h1{color:rgb(255, 255, 255)}
 nav a{color: rgb(255, 255, 255);margin: 0 10px;text-decoration: none;font-weight: bold;}
 .container{text-align: center; padding: 40px; flex: 1;}
-footer{position: static; bottom: 0; background-color: #111; color: white; text-align: center; padding: 18px; margin-top: 20px;}
+footer{background-color: #111; color: white; text-align: center; padding: 18px; margin-top: 20px;}
 .card {box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);border-radius: 5px; padding: 5px}
 .btn1{background-color: #545454;color: white;font-size: 15px;padding: 12px;border: none;border-radius: 5px;cursor: pointer; text-decoration: none;}
 .table-wrapper{overflow-x: auto;margin-top: 30px;}
@@ -27,3 +27,13 @@ footer{position: static; bottom: 0; background-color: #111; color: white; text-a
 .faq-item{ margin-bottom: 15px;border-radius: 8px; overflow: hidden;box-shadow: 0 2px 8px rgba(0,0,0,0.1);}
 .faq-question{width: 100%;background-color:#64646493;color: white;padding: 18px;border: none;text-align: left;font-size: 18px;font-weight: bold;cursor: pointer;}
 .faq-answer{max-height: 0;overflow: hidden;background-color: #f9f9f9;padding: 0 18px;transition: max-height 0.3s ease-out;}
+form { margin: 20px 0; padding: 20px; border: 1px solid #ccc; border-radius: 8px; }
+label { display: block; margin-top: 12px; font-weight: bold; }
+input, select, button { margin-top: 6px; padding: 10px; width: 100%; max-width: 420px; }
+.message { padding: 10px 14px; border-radius: 6px; margin: 12px 0; }
+.error { background: #ffe3e3; color: #8a1f1f; }
+.success { background: #e5f7e8; color: #1d6b2a; }
+table { border-collapse: collapse; width: 100%; margin-top: 16px; }
+th, td { border: 1px solid #ccc; padding: 10px; text-align: left; }
+header{background-color: #000000;color: rgb(255, 255, 255);padding: 15px;display: flex;justify-content: space-between;align-items: center;}
+main{flex:1;padding:20px;}
