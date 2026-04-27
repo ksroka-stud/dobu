@@ -18,14 +18,14 @@ footer{background-color: #111; color: white; text-align: center; padding: 18px; 
 .contact-info{background-color: white;padding: 30px;border-radius: 10px;box-shadow: 0 3px 10px rgba(0,0,0,0.12);}
 .contact-form-box{background-color: white;padding: 30px;border-radius: 10px;box-shadow: 0 3px 10px rgba(0,0,0,0.12);}
 .contact-form-box input,.contact-form-box textarea{padding: 14px;margin-bottom: 15px;border: 1px solid #ccc;border-radius: 6px;font-size: 16px;font-family: Arial, sans-serif;}
-.contact-form-box button{padding: 14px;background-color: #64646493;color: white;border: none;border-radius: 6px;font-size: 16px;font-weight: bold;cursor: pointer;transition: 0.3s;}
+.contact-form-box button{padding: 14px;background-color: #545454;color: white;border: none;border-radius: 6px;font-size: 16px;font-weight: bold;cursor: pointer;transition: 0.3s;}
 .contact-form-box form{display: flex;flex-direction: column;}
 .about-section{max-width: 900px;margin: auto;text-align: center;padding: 20px 0;}
 .about-features{display: grid;grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));gap: 25px;margin-top: 40px;}
 .about-card{background-color: white;padding: 30px 20px;border-radius: 10px;box-shadow: 0 3px 10px rgba(0,0,0,0.12);}
 .faq-section{max-width: 900px;margin: 60px auto 0;text-align: left;}
 .faq-item{ margin-bottom: 15px;border-radius: 8px; overflow: hidden;box-shadow: 0 2px 8px rgba(0,0,0,0.1);}
-.faq-question{width: 100%;background-color:#64646493;color: white;padding: 18px;border: none;text-align: left;font-size: 18px;font-weight: bold;cursor: pointer;}
+.faq-question{width: 100%;background-color:#545454;color: white;padding: 18px;border: none;text-align: left;font-size: 18px;font-weight: bold;cursor: pointer;}
 .faq-answer{max-height: 0;overflow: hidden;background-color: #f9f9f9;padding: 0 18px;transition: max-height 0.3s ease-out;}
 form { margin: 20px 0; padding: 20px; border: 1px solid #ccc; border-radius: 8px; }
 label { display: block; margin-top: 12px; font-weight: bold; }
@@ -35,5 +35,3 @@ input, select, button { margin-top: 6px; padding: 10px; width: 100%; max-width: 
 .success { background: #e5f7e8; color: #1d6b2a; }
 table { border-collapse: collapse; width: 100%; margin-top: 16px; }
 th, td { border: 1px solid #ccc; padding: 10px; text-align: left; }
-header{background-color: #000000;color: rgb(255, 255, 255);padding: 15px;display: flex;justify-content: space-between;align-items: center;}
-main{flex:1;padding:20px;}
