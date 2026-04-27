@@ -29,7 +29,7 @@ footer{background-color: #111; color: white; text-align: center; padding: 18px; 
 .faq-answer{max-height: 0;overflow: hidden;background-color: #f9f9f9;padding: 0 18px;transition: max-height 0.3s ease-out;}
 form { margin: 20px 0; padding: 20px; border: 1px solid #ccc; border-radius: 8px; }
 label { display: block; margin-top: 12px; font-weight: bold; }
-input, select, button { margin-top: 6px; padding: 10px; width: 100%; max-width: 420px; }
+form input, form select, form button { margin-top: 6px; padding: 10px; width: 100%; max-width: 420px; }
 .message { padding: 10px 14px; border-radius: 6px; margin: 12px 0; }
 .error { background: #ffe3e3; color: #8a1f1f; }
 .success { background: #e5f7e8; color: #1d6b2a; }
