@@ -9,7 +9,7 @@ footer{background-color: #111; color: white; text-align: center; padding: 18px; 
 .card {box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);border-radius: 5px; padding: 5px}
 .btn1{background-color: #545454;color: white;font-size: 15px;padding: 12px;border: none;border-radius: 5px;cursor: pointer; text-decoration: none;}
 .table-wrapper{overflow-x: auto;margin-top: 30px;}
-.timetable{width: 100%;border-collapse: collapse;-color: white;box-shadow: 0 2px 8px rgba(0,0,0,0.15);border-radius: 8px;overflow: hidden;min-width: 900px;}
+.timetable{width: 100%;border-collapse: collapse;color: white;box-shadow: 0 2px 8px rgba(0,0,0,0.15);border-radius: 8px;overflow: hidden;min-width: 900px;}
 .timetable th{background-color: #111;color: white;padding: 14px;text-align: center;font-size: 16px;}
 .timetable td{padding: 12px;text-align: center;border: 1px solid #ddd;font-size: 15px;}
 .price-card{background-color: white;padding: 10px 10px;border-radius: 10px;box-shadow: 0 3px 10px rgba(0,0,0,0.12);text-align: center;}
@@ -27,6 +27,7 @@ footer{background-color: #111; color: white; text-align: center; padding: 18px; 
 .faq-item{ margin-bottom: 15px;border-radius: 8px; overflow: hidden;box-shadow: 0 2px 8px rgba(0,0,0,0.1);}
 .faq-question{width: 100%;background-color:#545454;color: white;padding: 18px;border: none;text-align: left;font-size: 18px;font-weight: bold;cursor: pointer;}
 .faq-answer{max-height: 0;overflow: hidden;background-color: #f9f9f9;padding: 0 18px;transition: max-height 0.3s ease-out;}
+.faq-item.active .faq-answer{max-height:300px;padding:18px;}
 form { margin: 20px 0; padding: 20px; border: 1px solid #ccc; border-radius: 8px; }
 label { display: block; margin-top: 12px; font-weight: bold; }
 form input, form select, form button { margin-top: 6px; padding: 10px; width: 100%; max-width: 420px; }
