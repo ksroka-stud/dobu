@@ -37,7 +37,7 @@ include 'header.php';
 ?>
 
 <main>
-<h1>Login</h1>
+<h2>Login</h2>
 
 <?php if ($error): ?>
     <div class="message error"><?= htmlspecialchars($error) ?></div>

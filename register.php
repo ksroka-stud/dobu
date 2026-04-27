@@ -52,7 +52,7 @@ include 'header.php';
 
 <main>
 
-<h1>Create Account</h1>
+<h2>Create Account</h2>
 
 <?php if ($error): ?>
     <div class="message error"><?= htmlspecialchars($error) ?></div>

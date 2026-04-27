@@ -21,7 +21,7 @@ include 'header.php';
 
 <main>
 
-<h1>Dashboard</h1>
+<h2>Dashboard</h2>
 
 <p>Welcome, <strong><?= htmlspecialchars($user['full_name']) ?></strong>.</p>
 
