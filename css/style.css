@@ -9,7 +9,7 @@ footer{background-color: #111; color: white; text-align: center; padding: 18px; 
 .card {box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);border-radius: 5px; padding: 5px}
 .btn1{background-color: #545454;color: white;font-size: 15px;padding: 12px;border: none;border-radius: 5px;cursor: pointer; text-decoration: none;}
 .table-wrapper{overflow-x: auto;margin-top: 30px;}
-.timetable{width: 100%;border-collapse: collapse;color: white;box-shadow: 0 2px 8px rgba(0,0,0,0.15);border-radius: 8px;overflow: hidden;min-width: 900px;}
+.timetable{width: 100%;border-collapse: collapse;color: rgb(0, 0, 0);box-shadow: 0 2px 8px rgba(0,0,0,0.15);border-radius: 8px;overflow: hidden;min-width: 900px;}
 .timetable th{background-color: #111;color: white;padding: 14px;text-align: center;font-size: 16px;}
 .timetable td{padding: 12px;text-align: center;border: 1px solid #ddd;font-size: 15px;}
 .price-card{background-color: white;padding: 10px 10px;border-radius: 10px;box-shadow: 0 3px 10px rgba(0,0,0,0.12);text-align: center;}
