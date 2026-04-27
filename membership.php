@@ -78,7 +78,7 @@ include 'header.php';
         <?php endforeach; ?>
     </select>
 
-    <button type="submit">Update membership</button>
+    <button type="submit" class="btn1">Update membership</button>
 </form>
 
 </main>

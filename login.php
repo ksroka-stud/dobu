@@ -51,7 +51,7 @@ include 'header.php';
     <label for="password">Password</label>
     <input id="password" name="password" type="password" required>
 
-    <button type="submit">Sign in</button>
+    <button type="submit" class="btn1">Sign in</button>
 </form>
 
 </main>
