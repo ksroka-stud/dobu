@@ -44,7 +44,9 @@ include 'header.php';
     </tr>
 </table>
 
-<p><a href="membership.php" class="btn1">Change membership</a></p>
+<section class="container">
+    <p><a href="membership.php" class="btn1">Change membership</a></p>
+</section>
 
 </main>
 
