@@ -18,13 +18,15 @@ if (session_status() === PHP_SESSION_NONE) {
         <h1>DoBu Martial Arts</h1>
         <nav>
             <a href="index.html">Home</a>
-            <a href="register.php">Register</a>
-            <a href="login.php">Login</a>
             <?php if (isset($_SESSION['user_id'])): ?>
                 <a href="dashboard.php">Dashboard</a>
                 <a href="membership.php">Membership</a>
                 <a href="logout.php">Logout</a>
-        <?php endif; ?>
+            <?php else: ?>
+                <a href="register.php">Register</a>
+                <a href="login.php">Login</a>
+            <?php endif; ?>
+
         </nav>
     </header>
 <hr>
