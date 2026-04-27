@@ -50,6 +50,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 include 'header.php';
 ?>
 
+<main>
+
 <h1>Create Account</h1>
 
 <?php if ($error): ?>
@@ -85,5 +87,7 @@ include 'header.php';
 
     <button type="submit">Create account</button>
 </form>
+
+</main>
 
 <?php include 'footer.php'; ?>

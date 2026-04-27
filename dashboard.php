@@ -19,6 +19,8 @@ $user = $stmt->fetch();
 include 'header.php';
 ?>
 
+<main>
+
 <h1>Dashboard</h1>
 
 <p>Welcome, <strong><?= htmlspecialchars($user['full_name']) ?></strong>.</p>
@@ -43,5 +45,7 @@ include 'header.php';
 </table>
 
 <p><a href="membership.php">Change membership</a></p>
+
+</main>
 
 <?php include 'footer.php'; ?>

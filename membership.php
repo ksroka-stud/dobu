@@ -49,6 +49,8 @@ $currentUser = $currentStmt->fetch();
 include 'header.php';
 ?>
 
+<main>
+
 <h1>Membership Dashboard</h1>
 
 <p>Hello, <strong><?= htmlspecialchars($currentUser['full_name']) ?></strong>.</p>
@@ -78,5 +80,7 @@ include 'header.php';
 
     <button type="submit">Update membership</button>
 </form>
+
+</main>
 
 <?php include 'footer.php'; ?>
