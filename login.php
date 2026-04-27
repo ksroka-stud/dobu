@@ -36,6 +36,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 include 'header.php';
 ?>
 
+<main>
 <h1>Login</h1>
 
 <?php if ($error): ?>
@@ -52,5 +53,7 @@ include 'header.php';
 
     <button type="submit">Sign in</button>
 </form>
+
+</main>
 
 <?php include 'footer.php'; ?>
