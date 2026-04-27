@@ -51,7 +51,7 @@ include 'header.php';
 
 <main>
 
-<h2>Membership Dashboard</h2>
+<h2>Membership dashboard</h2>
 
 <p>Hello, <strong><?= htmlspecialchars($currentUser['full_name']) ?></strong>.</p>
 <p>Your current plan is <strong><?= htmlspecialchars($currentUser['plan_name']) ?></strong>.</p>
